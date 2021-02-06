@@ -9,9 +9,5 @@ module.exports = function check(str, bracketsConfig) {
       index = -1
     }
   }
-  if (str.length === 0) {
-    return true
-  } else {
-    return false
-  }
+ return str.length === 0 ? true : false
 };
